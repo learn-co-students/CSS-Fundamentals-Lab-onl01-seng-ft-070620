@@ -3,3 +3,34 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+}
+
+* {
+  text-align: center;
+}
+
+nav a {
+  padding: 0px 10px 0px 10px;
+  background-color: turquoise;
+}
+
+figcaption {
+  font-size: 10pt;
+}
+
+section#featured-property p {
+  font-size: 11pt;
+  width: 800px;
+  margin: auto;
+}
+
+#details * {
+  display: block;
+  background-color: red;
+  float: left;
+  width: 25%;
+  font-size: 10pt;
+}
